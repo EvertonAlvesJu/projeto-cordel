@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: PassionOne-Bold;
+    src: url('fonts/PassionOne-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: Sriracha-Regular;
+    src: url('fonts/Sriracha-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    
+}
+
+a:visited{
+    color: white;
+}
+
+h1{
+    font-family: PassionOne-Bold;
+    font-size: 50px;
+}
+
+p{
+    font-family: Sriracha-Regular;
+    margin: auto;
+    line-height: 50px;
+}
+
+.poema{
+    font-size: 170%;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    
+}
+
+#img2{
+    background: url('imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+    margin: auto;
+    height: 70vh;
+    box-shadow: 1px 1px 2px black ;
+    padding-top: 60px;
+    text-shadow: 2px 1px 2px black;
+    
+}
+
+#img1{
+    background: black url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    margin: auto;
+    height: 70vh;
+    box-shadow: 1px 1px 2px black ;
+    padding-top: 60px;
+    
+}
+
+.img{
+    padding: 10px 0px 0px 7px;
+    line-height: 50px;
+    width: 330px;
+    height: 365px;
+    margin: 20px 0px 0px 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+    font-size: 170%;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
